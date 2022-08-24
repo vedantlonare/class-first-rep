@@ -7,9 +7,3 @@ def veda(city,*a,**b):
     for area in b:
       print(area,b[area])
       veda("nagpur",120000,sadar=3000,kamthi=4000,koradi=550,sakkardhra=2000)
-
-x=set1&set3
-print(x)
-
-set3.clear()
-print(set3)
