@@ -1,0 +1,9 @@
+def veda(city,*a,**b):
+  print(city)
+
+  for plots in a:
+    print(plots)
+
+    for area in b:
+      print(area,b[area])
+      veda("nagpur",120000,sadar=3000,kamthi=4000,koradi=550,sakkardhra=2000)
